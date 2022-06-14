@@ -1,0 +1,562 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+    background-color: #ebebeb;
+}
+
+.main-header {
+    background-color: #EAC926;
+    padding: 20px;
+}
+
+.logo {
+    width: 50%;
+}
+
+
+.copy-header {
+    font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+    padding: 0px;
+}
+
+.hamburger-button {
+    background-color: #03264C;
+    color: #ffffff;
+    display: block;
+    max-width: 50px;
+    padding: 15px 0px;
+    border-radius: 8px;     
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
+
+.main-navbar {
+    display: none;
+}
+
+
+.main-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar {
+    text-decoration: none;
+    color: #222222;
+    display: none;
+    padding: 5px 0px;
+    font-size: 17px;
+
+}
+
+
+.search {
+    display: inline-block;
+    justify-content: center;
+}
+
+
+.mobile-header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+}
+
+::-webkit-input-placeholder {
+    font-size: 10px;
+}
+
+.logo,
+.searchbar {
+    width: 50%
+}
+
+
+.searchbar {
+    display: flex;
+    align-items: flex-start;
+}
+
+.input{
+    width: 70%;
+}
+
+/* Fin del header (salvo media queris) */
+
+
+
+/* Inicio del main */
+
+section.banner img{
+    width: 100%;
+}
+
+h3{
+    font-size: 24px;
+}
+
+p{
+    font-size: 12px;
+}
+
+
+article div.main-article{
+    width: 100%;
+}
+
+.price{
+    font-size: 18px;
+}
+
+.discount,
+.description{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.description {
+    font-size: 12px;
+}
+
+h3,
+.description{
+    color: #666;
+}
+
+main{
+    width: 90%;
+
+}
+
+main section article{
+    background-color: #fff;
+
+}
+
+main section article img{
+    width: 100%;
+}
+
+main section article i,
+.discount{
+    color: #39b54a;
+}
+
+main {
+    margin: auto;
+    width: 90vw;
+    box-sizing: border-box;
+}
+
+article {
+    margin: 10px 0px;
+}
+
+.main-article {
+    border-top: #ebebeb 1px solid;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+main section article div {
+    position: relative;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    }
+
+.discount,
+.price {
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 30%;
+    padding: 10px;
+    font-size: 12px;
+    
+}
+
+.last-visit,
+.offers {
+    padding: 15px 0px;
+    box-sizing: border-box;
+}
+
+.description {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: space-between;
+}
+
+
+
+
+
+/* fin del main */
+
+
+
+
+/* inicio del footer */
+
+footer {
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ 
+footer ifoot {
+    color:#1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+ 
+.copy {
+    margin-top: 25px;
+    font-size: 12px;
+    color: #666;
+    text-align: left;
+    padding: 5px;
+}
+ 
+footer h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+ 
+.footer-element {
+    padding: 2%
+}
+
+.footer-element:hover ifoot {
+    color: green
+}
+
+
+/* fin del footer */ 
+
+
+
+
+
+/* Fin del main (salvo media queris) */
+
+@media (min-width: 360px) {
+    .searchbar {
+        display: flex;
+        width: 250px;
+        justify-content: center;
+    }
+
+    .input{
+        width: 70%;
+    }
+
+    ::-webkit-input-placeholder {
+        font-size: 8px;
+    }
+
+    .main-navbar {
+        display: inline-block;
+    }
+
+
+    .main-header-top-bar {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+        
+    }
+
+    .copy-header {
+        max-width: 300px;
+        text-align: right;
+        font-size: 12px;
+        align-items: flex-start;
+        align-self: center;
+    }
+    .hamburger-button {
+        display: none;
+    }
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+    }
+    .main-navbar ul {
+        display: flex;
+    }
+    .main-navbar li {
+        margin: 0 5px;
+    }
+    
+
+    main section article {
+        width: 45%;
+    }
+    .products {
+        gap: 5%;
+    }
+    
+    .discount {
+        width: 30%;
+        padding: 0px;
+        margin-left: 15px;
+    }
+
+    /* Implementamos hover y animaciones en el main*/
+
+.articulo .description{
+    display: none;
+    transition: 
+        all, 0.3s;
+}
+
+.articulo:hover .description{
+    display: block;
+}
+
+.articulo {
+    box-shadow: 0px 0px 0px rgb(100, 100, 100);
+    transition: 
+                all, 0.5s;
+}
+
+.articulo:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.articulo i {
+    transition:
+                all, 0.5s;
+}
+
+.articulo i {
+    transform:
+                all, 0.5s;
+}
+
+.articulo i:hover {
+    transform: rotatez(-90deg);
+}
+
+}
+
+
+@media (min-width: 768px) {
+    .searchbar {
+        display: flex;
+        width: 250px;
+        justify-content: center;
+        
+    }
+
+    .main-navbar {
+        display: inline-block;
+    }
+
+    .input{
+        width: 70%;
+    }
+
+    .main-header-top-bar {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+    }
+    .copy-header {
+        max-width: 300px;
+        text-align: right;
+        font-size: 12px;
+        align-items: flex-start;
+        align-self: center;
+    }
+    .hamburger-button {
+        display: none;
+    }
+    .main-navbar {
+        display: flex;
+        justify-content: space-between;
+    }
+    .main-navbar ul {
+        display: flex;
+    }
+    .main-navbar li {
+        margin: 0 5px;
+    }
+
+    /* fin del header */
+
+    .price {
+        width: 30%;
+        align-items: center;
+    }
+
+    .discount {
+        padding: 5px;
+        width: 40%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main section article {
+        width: 20%;
+    }
+    .products {
+        gap: 5%;
+    }
+
+    /* fin del main */
+
+    .flex-footer {
+        display: flex;
+        align-items: center; 
+        justify-content: space-around;
+        gap: 2%;
+        padding: 10px;
+    }
+
+    /* fin del footer */
+
+    /* Implementamos hover y animaciones en el main*/
+
+.articulo .description{
+    display: none;
+    transition: 
+        all, 0.3s;
+}
+
+.articulo:hover .description{
+    display: block;
+}
+
+.articulo {
+    box-shadow: 0px 0px 0px rgb(100, 100, 100);
+    transition: 
+                all, 0.5s;
+}
+
+.articulo:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.articulo i {
+    transition:
+                all, 0.5s;
+}
+
+.articulo i {
+    transform:
+                all, 0.5s;
+}
+
+.articulo i:hover {
+    transform: rotatez(-90deg);
+}
+
+
+}
+
+
+@media (min-width: 1200px) {
+    .search {
+        display: flex;
+        width: 350px;
+        justify-content: flex-end;
+        
+    }
+    
+    
+    .main-header-top-bar,
+    .main-navbar {
+        max-width: 1200px;
+        margin: auto;
+    }
+    .main-header-top-bar {
+        align-items: center;
+    }
+    .logo {
+        width: 250px
+    }
+    .copy-header {
+        margin: 0px;
+        max-width: none;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .main-navbar {
+        margin-top: 40px;
+    }
+    .main-navbar li {
+        margin: 0 10px;
+    }
+    .main-navbar a {
+        font-size: 19px;
+    }
+
+    /* Implementamos hover y animaciones en el main*/
+
+.articulo .description{
+    display: none;
+    transition: 
+        all, 0.3s;
+}
+
+.articulo:hover .description{
+    display: block;
+}
+
+.articulo {
+    box-shadow: 0px 0px 0px rgb(100, 100, 100);
+    transition: 
+                all, 0.5s;
+}
+
+.articulo:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+.articulo i {
+    transition:
+                all, 0.5s;
+}
+
+.articulo i {
+    transform:
+                all, 0.5s;
+}
+
+.articulo i:hover {
+    transform: rotatez(-90deg);
+}
+
+}
